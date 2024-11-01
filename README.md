@@ -2,10 +2,10 @@
 
 En este esquema de flujo tenemos una entidad principal que es FESTIVAL, de la cual derivan otras entidades con sus atributos, cardinalidades y relaciones.
 
-## Festival
+## FESTIVAL
 La entidad FESTIVAL cuenta con dos atributos principales: acampada y recinto. Su cardinalidad es de 1 y es obligatoria, ya que solo puede existir un festival, y su presencia es esencial para el sistema.
-### ------------------------------------------------------------------------------------------
-Las otras subentidades principales que están conectadas con FESTIVAL a través de una relación son ZONA DE ACAMPADA y RECINTE. 
+
+Esta entidad contiene otras subentidades principales que están conectadas a través de una relación son ZONA DE ACAMPADA y RECINTE. 
 
 ## ZONA ACAMPADA
 La entidad ZONA ACAMPADA está relacionada con PARCEL·LA. Esta entidad tiene como atributo acampada y su cardinalidad es de 1 y obligatoria, ya que cada festival debe tener una zona de acampada asignada.  
